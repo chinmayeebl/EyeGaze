@@ -9,7 +9,7 @@ The performance of the model is demonstrated for an application of profiling the
 <p align="center">
   <img src="PIPELINE.png" alt="Image">
 </p>
-![Image](PIPELINE.png)
+
 
 _**Data Pre-processing**_
 
@@ -44,7 +44,7 @@ Test results assessing the viewer's attention across four distinct videos.
 <p align="center">
   <img src="application_graph.png" alt="Image">
 </p>
-![Image]()
+
 
 # _**Results**_
 
