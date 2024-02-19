@@ -5,6 +5,10 @@ We use L2CS-Net, a novel gaze estimation architecture built on ResNet-50. The mo
 The performance of the model is demonstrated for an application of profiling the attention of the user and monitoring the off-screen glances of the user while watching a video. 
 
 ## ***Pipeline of the Model***
+
+<p align="center">
+  <img src="PIPELINE.png" alt="Image">
+</p>
 ![Image](PIPELINE.png)
 
 _**Data Pre-processing**_
@@ -37,11 +41,16 @@ In our project, we employ attention profiling using the above model to analyze v
 
 Test results assessing the viewer's attention across four distinct videos.
 
-![Image](application_graph.png)
+<p align="center">
+  <img src="application_graph.png" alt="Image">
+</p>
+![Image]()
 
 # _**Results**_
 
-![Image](results.png)
+<p align="center">
+  <img src="results.png" alt="Image">
+</p>
 
   ---
 
