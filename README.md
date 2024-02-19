@@ -15,6 +15,22 @@ _**Data Pre-processing**_
 
 - MPIIGaze data is been preprocessed as given [here](https://phi-ai.buaa.edu.cn/Gazehub/3D-dataset/).
 
+_**train.py**_
+
+Use the following script to train the MPIIGaze dataset:
+
+```bash
+python train1.py --dataset mpiigaze --gpu 0 --num_epochs 20 --batch_size 4 --lr 0.00001 --alpha 1
+```
+
+_**test.py**_
+
+Use the following script to test the MPIIGaze dataset:
+
+```bash
+python test.py --dataset mpiigaze --snapshot output/snapshots/snapshot_folder --evalpath evaluation/L2CS-mpiigaze  --gpu 0
+```
+
 _**L2CS-Net Architecture**_
 
 - **_Model Backbone:_** L2CS-Net utilizes ResNet-50 as a backbone for gaze estimation.
@@ -34,4 +50,4 @@ _**L2CS-Net Architecture**_
   ---
 
 - References
-- (https://github.com/Ahmednull/L2CS-Net?tab=MIT-1-ov-file) 
+- Find the source code and additional details in the [L2CS-Net GitHub Repository](https://github.com/Ahmednull/L2CS-Net).
