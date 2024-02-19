@@ -1,4 +1,4 @@
-# EyeGaze
+#Attention Tracking
 
 Eye-tracking is a method that involves monitoring the position and movement of eyes that can help towards wide variety of applications.
 We use L2CS-Net, a novel gaze estimation architecture built on ResNet-50. The model, is validated on the MPII Gaze dataset through 5-fold cross-validation and exhibited consistent reduction in combined loss during training.
@@ -33,6 +33,8 @@ python test.py --dataset mpiigaze --snapshot output/snapshots/snapshot_folder --
 _**Result**_
 
 ![Image](results.png)
+
+Test results assessing the viewer's attention across four distinct videos.
 
 ![Image](application_graph.png)
 
