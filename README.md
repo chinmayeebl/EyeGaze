@@ -31,6 +31,7 @@ Use the following script to test the MPIIGaze dataset:
 python test.py --dataset mpiigaze --snapshot output/snapshots/snapshot_folder --evalpath evaluation/L2CS-mpiigaze  --gpu 0
 ```
 
+![Image](results.png)
 
   ---
 
