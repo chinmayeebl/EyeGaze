@@ -31,21 +31,6 @@ Use the following script to test the MPIIGaze dataset:
 python test.py --dataset mpiigaze --snapshot output/snapshots/snapshot_folder --evalpath evaluation/L2CS-mpiigaze  --gpu 0
 ```
 
-_**L2CS-Net Architecture**_
-
-- **_Model Backbone:_** L2CS-Net utilizes ResNet-50 as a backbone for gaze estimation.
-
-- **_Distinctive Features:_** Optimized gaze estimation with distinctive features integrated into the ResNet-50 architecture.
-
-- **_Dual Fully-Connected Layers:_** Unlike traditional approaches, L2CS-Net uses separate fully-connected layers followed by softmax layers for yaw and pitch angles.
-
-- **_Loss Functions:_** Mean squared error and cross entropy losses are applied to fine-tune the network weights for accurate gaze prediction.
-
-- **_Classification and Regression Strategy:_** Utilizes a combined strategy with SoftMax activation, categorical bins for gaze direction, and continuous bins for precise numerical values.
-
-- **_Expectation Calculation:_** Calculates the expectation of the probability distribution for fine-grained gaze predictions.
-
-- **_Final Loss:_** Combines cross-entropy loss and mean squared error for comprehensive performance evaluation.
 
   ---
 
